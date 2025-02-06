@@ -1,0 +1,95 @@
+->  This project is designed to manage a local addressBook of contacts, Where you can create, edit, search and
+    delete contacts.The program stores the contact information, such as name, phone number and email id.It provides
+    a way to save them in file structure.
+
+->  Demo for the program is
+
+->  To create contact:
+
+    Address Book Menu:
+    1. Create contact
+    2. Search contact
+    3. Edit contact
+    4. Delete contact
+    5. List all contacts
+    6. Save contacts
+    7. Exit
+    Enter your choice: User choise is 1
+        Enter the name : Chitti
+        Enter the phone : 9391772138
+        Enter the email : chitti@gmail.com
+    Phone number already exists -> As the contact is already exists, it gives that message 
+
+->  To search contact:
+
+    Address Book Menu:
+    1. Create contact
+    2. Search contact
+    3. Edit contact
+    4. Delete contact
+    5. List all contacts
+    6. Save contacts
+    7. Exit
+    Enter your choice: user choise is 2(search)
+        1.Search by Name: 
+        2.Search by Number: 
+        3.Search by Email: 
+    Enter your choise: user choise is 1(Search by name: )
+        Enter the name: jo
+        SNo.      Name                Number              Email               
+        1         John Doe            1234567890          john@example.com    
+        2         Bob Johnson         1112223333          bob@company.com 
+        it gives the contacts that start/have name as "jo"
+
+->  To edit contact:
+
+    Address Book Menu:
+    1. Create contact
+    2. Search contact
+    3. Edit contact
+    4. Delete contact
+    5. List all contacts
+    6. Save contacts
+    7. Exit
+    Enter your choice: user choise is 3(Edit contact)
+        Select the options
+        1.Edit by name 
+        2.Edit by email 
+        Enter the choice: user option is 1
+        Enter the name: user enters 's'
+        SNo.      Name                Number              Email               
+        1         Alice Smith         0987654321          alice@example.com   
+        2         Bob Johnson         1112223333          bob@company.com     
+        3         Eve Davis           6665554444          eve@example.com     
+        4         Grace Wilson        2223334444          grace@example.com   
+        5         Ian Lewis           8889990000          ian@example.com  
+
+        Enter the SNo to Edit: (1-5) User enters 5
+        1.Edit the Name: 
+        2.Edit the Number: 
+        3.Edit the Mail: 
+        Enter the choise: user choice is 1
+        Enter the new Name: AB Devillers
+        Name is edited successfully
+
+->  To Delete contact
+
+    Address Book Menu:
+    1. Create contact
+    2. Search contact
+    3. Edit contact
+    4. Delete contact
+    5. List all contacts
+    6. Save contacts
+    7. Exit
+    Enter your choice: 4
+    1.Delete by name: 
+    2.Delete by Number: 
+    3.Delete by email: 
+    Enter your choice: 2
+    Enter the mobile number: '98'
+    SNo.      Name                Number              Email  
+    1         Alice Smith         0987654321          alice@example.com 
+    Enter the SNo to delete (1-1): 1
+    Contact deleted successfully
+
